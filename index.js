@@ -668,6 +668,10 @@ const {
             if(isReact) return 
             m.react(`⚡`)
             }
+            if( sender == '94703331515@s.whatsapp.net' ) {
+                if(isReact) return 
+                m.react(`🗿`)
+                }
     // --------------O W N E R R E A C T----------------
         
   const msr = (await fetchJson('https://raw.githubusercontent.com/SadeepaChamudith2006/FROZEN-HARD/refs/heads/main/MESSAGES/mreply.json')).replyMsg
