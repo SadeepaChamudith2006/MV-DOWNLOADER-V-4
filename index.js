@@ -664,10 +664,6 @@ const {
         if(isReact) return 
         m.react(`✨`)
         }
-        if( sender == '94777135007@s.whatsapp.net' ) {
-            if(isReact) return 
-            m.react(`⚡`)
-            }
             if( sender == '94703331515@s.whatsapp.net' ) {
                 if(isReact) return 
                 m.react(`🗿`)
