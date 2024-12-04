@@ -35,7 +35,8 @@ async (conn, mek, m, { from, quoted, body, args, reply }) => {
 🎭 *Actors*: ${data.Actors}
 
 📝 *Plot*: ${data.Plot}
-        `;
+
+> ᴄᴏʀᴅᴇᴅ ʙʏ ꜱᴀᴅᴇᴇᴘᴀ ᴄʜᴀᴍᴜᴅɪᴛʜ`;
 
         const imageUrl = data.Poster !== "N/A" ? data.Poster : config.DEFAULT_IMAGE_URL;
 

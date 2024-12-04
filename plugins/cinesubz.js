@@ -452,7 +452,10 @@ let yt = `
 🕵️‍♂️ ${oce}Cast:${oce} ➜ ${cast}
 
 ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+${oce}⚠️ ▫️දාන Files දවස් 14ක් ඇතුළත Download කරගන්න.${oce}
 
+*⚠️▫️Phone එකෙන් Films, Series නැරඹීමට MX Player, VLC player භාවිතා කරන්න.*
+*(Play Store එකෙන් Download කරගන්න)*
 
 `
 
@@ -540,6 +543,10 @@ let yt = `
 🕵️‍♂️ ${oce}Cast:${oce} ➜ ${cast}
 
 ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+${oce}⚠️ ▫️දාන Files දවස් 14ක් ඇතුළත Download කරගන්න.${oce}
+
+*⚠️▫️Phone එකෙන් Films, Series නැරඹීමට MX Player, VLC player භාවිතා කරන්න.*
+*(Play Store එකෙන් Download කරගන්න)*
 
 `
 

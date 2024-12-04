@@ -1,9 +1,10 @@
+
 // XVIDEO DOWNLOAD COMMAND
 
 const { cmd } = require('../command')
 const { fetchJson } = require('../lib/functions')
 
-const apilink = 'https://dark-yasiya-api-new.vercel.app' // API LINK ( DO NOT CHANGE THIS!! )
+const apilink = 'https://www.dark-yasiya-api.site' // API LINK ( DO NOT CHANGE THIS!! )
 
 
 

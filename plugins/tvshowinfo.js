@@ -1,3 +1,4 @@
+
 const axios = require('axios');
 const { cmd } = require('../command');
 
@@ -56,7 +57,8 @@ async (conn, mek, m, { from, quoted, args, reply }) => {
 
 🌐 *Homepage*: ${tvDetails.homepage || 'No official website available'}
 ━━━━━━━━━━━━━━━━━━━━━
-`;
+
+>ᴄᴏʀᴅᴇᴅ ʙʏ ꜱᴀᴅᴇᴇᴘᴀ ᴄʜᴀᴍᴜᴅɪᴛʜ`;
 
         // Get the TV show poster or use a default image
         const posterUrl = tvDetails.poster_path

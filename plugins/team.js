@@ -1,3 +1,4 @@
+
 const { cmd } = require('../command');
 const axios = require('axios');
 const fetchJson = async (url) => (await axios.get(url)).data; // Fetch JSON data from a URL
@@ -92,7 +93,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 For more information, contact the Developer.
 https://wa.link/5y5117
 
-> ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ
+> ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ
         `;
 
         // Step 2: Send the menu text

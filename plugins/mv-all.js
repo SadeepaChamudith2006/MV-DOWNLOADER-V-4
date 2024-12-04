@@ -99,4 +99,3 @@ console.log(e)
 await conn.sendMessage(creator, { text: `❌ *Error Accurated !!*\n\n${e}` + '' }, { quoted : mek })
 }
 })
-

@@ -1,3 +1,4 @@
+
 const axios = require('axios');
 const config = require('../config')
 const { cmd, commands } = require('../command')
@@ -144,4 +145,3 @@ console.log(e)
 reply(`❌ *Error Accurated !!*\n\n${e}`)
 }
 })
-

@@ -1,3 +1,4 @@
+
 const axios = require('axios');
 const config = require('../config')
 const { cmd, commands } = require('../command')
@@ -251,4 +252,3 @@ console.log(e)
 await conn.sendMessage(creator, { text: `❌ *Error Accurated !!*\n\n${e}` + '' }, { quoted : mek })
 }
 })
-
