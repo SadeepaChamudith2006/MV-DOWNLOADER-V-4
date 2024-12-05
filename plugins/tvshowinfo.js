@@ -56,9 +56,7 @@ async (conn, mek, m, { from, quoted, args, reply }) => {
 📡 *Status*: ${tvDetails.status || 'N/A'}
 
 🌐 *Homepage*: ${tvDetails.homepage || 'No official website available'}
-━━━━━━━━━━━━━━━━━━━━━
-
->ᴄᴏʀᴅᴇᴅ ʙʏ ꜱᴀᴅᴇᴇᴘᴀ ᴄʜᴀᴍᴜᴅɪᴛʜ`;
+━━━━━━━━━━━━━━━━━━━━━`;
 
         // Get the TV show poster or use a default image
         const posterUrl = tvDetails.poster_path
@@ -68,7 +66,7 @@ async (conn, mek, m, { from, quoted, args, reply }) => {
         // Send the TV show information with the poster image
         await conn.sendMessage(from, {
             image: { url: posterUrl },
-            caption: `${tvInfo}\n> Powered by TMDB API`,
+            caption: `${tvInfo}\n> ᴄᴏʀᴅᴇᴅ ʙʏ ꜱᴀᴅᴇᴇᴘᴀ ᴄʜᴀᴍᴜᴅɪᴛʜ`,
         }, { quoted: mek });
 
         // React to the message
